@@ -124,7 +124,7 @@ if (!$connection) {
       margin-bottom: 5px;
     }
 
-    input[type="text"], select, textarea {
+    input[type="password"], select, textarea {
       width: 100%;
       padding: 5px;
       margin-bottom: 10px;
@@ -151,11 +151,11 @@ if (!$connection) {
     ?>
 <form method='post'>
 <label for="oldpassword">Old Password:</label>
-<input  type='text' id='oldpassword' name='oldpassword'  required>
+<input  type='password' id='oldpassword' name='oldpassword'  required>
 <label for="newpassword">New Password:</label>
-<input type="text" id="newpassword" name="newpassword"   required>
+<input type="password" id="newpassword" name="newpassword"   required>
 <label for="conpassword">Password confirm:</label>
-<input  type="text" id="conpassword" name="conpassword"      required>
+<input  type="password" id="conpassword" name="conpassword"      required>
 <input type="submit" value="Update Password" name='UpdatePassword'>
   </form>
 
